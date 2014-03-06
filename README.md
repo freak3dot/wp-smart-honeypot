@@ -16,3 +16,7 @@ http://codex.wordpress.org/Function_Reference/comment_form
 The website still gets trackback spam. That's harder to figure out a
 solution, because a trackback is sort of meant to be done by computers.
 Really the only solution for trackback spam is to turn off trackbacks. 
+
+
+
+More information about the concepts at work here: http://www.smartfile.com/blog/captchas-dont-work-how-to-trick-spam-bots-with-a-smarter-honey-pot/
