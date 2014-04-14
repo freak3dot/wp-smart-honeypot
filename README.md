@@ -28,5 +28,10 @@ This plugin is not intended to stop trackback spam.
 5. Browse for your wp-smart-honeypot.zip and click Install Now.
 6. Activate the plugin.
 
+
+###Note###
+This plugin may include some from elements related to bootstrap. You may need to modify the PHP before using on your site.
+
+
 ###Honeypot Concepts###
 More information about the concepts at work here: http://www.smartfile.com/blog/captchas-dont-work-how-to-trick-spam-bots-with-a-smarter-honey-pot/
