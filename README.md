@@ -30,7 +30,7 @@ This plugin is not intended to stop trackback spam.
 
 
 ###Note###
-This plugin may include some from elements related to bootstrap. You may need to modify the PHP before using on your site.
+This plugin may include some form elements related to bootstrap. You may need to modify the PHP before using on your site.
 
 
 ###Honeypot Concepts###
