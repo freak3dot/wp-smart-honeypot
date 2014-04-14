@@ -29,8 +29,9 @@ This plugin is not intended to stop trackback spam.
 6. Activate the plugin.
 
 
-###Note###
-This plugin may include some form elements related to bootstrap. You may need to modify the PHP before using on your site.
+###Notes###
+* This plugin may include some form elements related to bootstrap. You may need to modify the PHP before using on your site.
+* If you are _not_ using wordpress and would like to see a PHP example of a honeypot form in use. See https://github.com/freak3dot/smart-honeypot/
 
 
 ###Honeypot Concepts###
