@@ -23,7 +23,7 @@ This plugin is not intended to stop trackback spam.
 
 1. Go to the release page: https://github.com/freak3dot/wp-smart-honeypot/releases
 2. Download the latest zip file.
-3. Rename the zip for to wp-smart-honeypot.zip
+3. Rename the zip file to wp-smart-honeypot.zip
 4. Go to your WordPress admin panel. Click on Plugin » Add New. Then click the upload tab.
 5. Browse for your wp-smart-honeypot.zip and click Install Now.
 6. Activate the plugin.
