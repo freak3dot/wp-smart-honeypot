@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class wpCommentSmartHoneyPotPlugin</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+
+
+<h2 class="class-name">Class wpCommentSmartHoneyPotPlugin</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Wordpress Comment Smart Honeypot Plugin.</p>
+
+		<p class="notes">
+			Located in <a class="field" href="_wp-smart-honeypot.php.html">/wp-smart-honeypot.php</a> (line <span class="field">20</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																																																								<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$addOn" title="details" class="var-name">$addOn</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$approvedComment" title="details" class="var-name">$approvedComment</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$icon_list" title="details" class="var-name">$icon_list</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$idRegex" title="details" class="var-name">$idRegex</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">int</span>
+					<a href="#$insertAt" title="details" class="var-name">$insertAt</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">int</span>
+					<a href="#$label" title="details" class="var-name">$label</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$label_list" title="details" class="var-name">$label_list</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$nameRegex" title="details" class="var-name">$nameRegex</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$salt" title="details" class="var-name">$salt</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																				
+												<div class="method-definition">
+											<span class="method-result">wpCommentSmartHoneyPotPlugin</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#wpcsh_check_form" title="details" class="method-name">wpcsh_check_form</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$approved</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#wpcsh_encrypt_author" title="details" class="method-name">wpcsh_encrypt_author</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$author_field</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#wpcsh_encrypt_comment" title="details" class="method-name">wpcsh_encrypt_comment</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$comment_field</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#wpcsh_encrypt_email" title="details" class="method-name">wpcsh_encrypt_email</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$email_field</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#wpcsh_encrypt_url" title="details" class="method-name">wpcsh_encrypt_url</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$url_field</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#wpcsh_hidden_field_and_script" title="details" class="method-name">wpcsh_hidden_field_and_script</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#wpcsh_init" title="details" class="method-name">wpcsh_init</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#wpcsh_insert_honey_pot" title="details" class="method-name">wpcsh_insert_honey_pot</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#wpcsh_pre_post" title="details" class="method-name">wpcsh_pre_post</a>
+										()
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$addOn" id="$addOn"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$addOn</span>
+						(line <span class="line-number">31</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Random string for obfuscation of field names.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$approvedComment" id="$approvedComment"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$approvedComment</span>
+			 = <span class="var-default"> ''</span>			(line <span class="line-number">42</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Approved Comment.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$icon_list" id="$icon_list"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$icon_list</span>
+			 = <span class="var-default">array( 'user', 'envelope', 'home', 'comment' )</span>			(line <span class="line-number">27</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> List of bootstrap icons corresponding to the abvoe field names.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$idRegex" id="$idRegex"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$idRegex</span>
+			 = <span class="var-default"> '/id=&quot;[a-z0-9]*&quot;/i'</span>			(line <span class="line-number">40</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Regex to find id html property.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$insertAt" id="$insertAt"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$insertAt</span>
+						(line <span class="line-number">23</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Location index of the inserted honeypot.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$label" id="$label"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$label</span>
+						(line <span class="line-number">29</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Honeypot Label id.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$label_list" id="$label_list"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$label_list</span>
+			 = <span class="var-default">array( 'Name', 'Email', 'Website', 'Comment' )</span>			(line <span class="line-number">25</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> List of field names.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$nameRegex" id="$nameRegex"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$nameRegex</span>
+			 = <span class="var-default"> '/name=&quot;[a-z0-9]*&quot;/i'</span>			(line <span class="line-number">38</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Regex to find name html property.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$salt" id="$salt"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$salt</span>
+			 = <span class="var-default"> '(xPj(77ios0V5iikTZ9W!K1NQ)0aLexnLuKGNam1am7$(pO74KFf&amp;22@m2rRgze&amp;'</span>			(line <span class="line-number">36</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Salt for obfuscation of field names.  Change the salt when you install this.  http://www.sethcardoza.com/tools/random-password-generator</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+
+
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">51</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Construct the class.</p>
+<p class="description"><p>Set up the wordpress filters that will use this plugin.</p></p>
+	<ul class="tags">
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">wpCommentSmartHoneyPotPlugin</span>
+		<span class="method-name">
+			__construct
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodwpcsh_check_form" id="wpcsh_check_form"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_check_form</span> (line <span class="line-number">246</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Comment Approved.</p>
+<p class="description"><p>Determine if the comment form was flagged as spam by the wpcsh_pre_post method.  If the comment form is not honeypot spam, return the original status.  The original status was presumably approved.  This is used by a wordpress action.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Form Status.</li>
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			wpcsh_check_form
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$approved</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$approved</span><span class="var-description">: Form Status.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwpcsh_encrypt_author" id="wpcsh_encrypt_author"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_encrypt_author</span> (line <span class="line-number">143</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Obfuscate the author field.</p>
+<p class="description"><p>Replaces name and id HTML attributes in the author field with unique md5 obfuscated field name.  Also inserts the honeypot if the random location selected is at 0. 0 would be before the author field.  This is used by a wordpress filter.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> HTML for the field.</li>
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			wpcsh_encrypt_author
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$author_field</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$author_field</span><span class="var-description">: HTML for the author field.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwpcsh_encrypt_comment" id="wpcsh_encrypt_comment"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_encrypt_comment</span> (line <span class="line-number">200</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Obfuscate the comment field.</p>
+<p class="description"><p>Replaces name and id HTML attributes in the comment field with unique md5 obfuscated field name.  Also inserts the honeypot if the random location selected is at 3. 3 would be before the comment field.  This is used by a wordpress filter.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> HTML for the field.</li>
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			wpcsh_encrypt_comment
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$comment_field</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$comment_field</span><span class="var-description">: HTML for the comment field.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwpcsh_encrypt_email" id="wpcsh_encrypt_email"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_encrypt_email</span> (line <span class="line-number">162</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Obfuscate the email field.</p>
+<p class="description"><p>Replaces name and id HTML attributes in the email field with unique md5 obfuscated field name.  Also inserts the honeypot if the random location selected is at 1. 1 would be before the email field.  This is used by a wordpress filter.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> HTML for the field.</li>
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			wpcsh_encrypt_email
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$email_field</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$email_field</span><span class="var-description">: HTML for the email field.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwpcsh_encrypt_url" id="wpcsh_encrypt_url"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_encrypt_url</span> (line <span class="line-number">181</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Obfuscate the url field.</p>
+<p class="description"><p>Replaces name and id HTML attributes in the url field with unique md5 obfuscated field name.  Also inserts the honeypot if the random location selected is at 2. 2 would be before the url field.  This is used by a wordpress filter.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> HTML for the field.</li>
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			wpcsh_encrypt_url
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$url_field</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$url_field</span><span class="var-description">: HTML for the url field.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwpcsh_hidden_field_and_script" id="wpcsh_hidden_field_and_script"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_hidden_field_and_script</span> (line <span class="line-number">261</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Comment Form Creation.</p>
+<p class="description"><p>Inject the hidden field for our $addOn which will be used to undo the  obfuscation of field names. Also, add the intentionally raw JavaScript  that will remove the honeypot for our human users.  This is used by a wordpress action.</p></p>
+	<ul class="tags">
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			wpcsh_hidden_field_and_script
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodwpcsh_init" id="wpcsh_init"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_init</span> (line <span class="line-number">67</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Initialize WP Comment Smart Honeypot Plugin.</p>
+	<ul class="tags">
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			wpcsh_init
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodwpcsh_insert_honey_pot" id="wpcsh_insert_honey_pot"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_insert_honey_pot</span> (line <span class="line-number">83</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Insert the Honeypot Field</p>
+<p class="description"><p>Copy one of the existing comment fields and return this wrapped in a  bootstrap control-group.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Honeypot Field as HTML</li>
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			wpcsh_insert_honey_pot
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodwpcsh_pre_post" id="wpcsh_pre_post"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">wpcsh_pre_post</span> (line <span class="line-number">215</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Pre Comment On Post</p>
+<p class="description"><p>Undo the obfuscate that was done on the comment form. This will enable wordpress to understand the form again.  This method also checks the honeypot for content and will mark the comment form as spam.  This is used by a wordpress action.</p></p>
+	<ul class="tags">
+				<li><span class="field">since:</span> 1.0.0</li>
+			</ul>
+
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			wpcsh_pre_post
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 26 Aug 2015 22:06:38 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>
+
