@@ -35,4 +35,8 @@ This plugin is not intended to stop trackback spam.
 
 
 ###Honeypot Concepts###
-More information about the concepts at work here: http://www.smartfile.com/blog/captchas-dont-work-how-to-trick-spam-bots-with-a-smarter-honey-pot/
+* Random field names to make it difficult to programatically fill in the fields.
+* Use one of the standard field names as the honeypot. I like to use "url". Because, what bot isn't trying to spam a url?
+* Mix up the location of the honeypot in the form. Let's prevent bots from always ignoring the n<sup>th</sup> field.
+* Expire the form after a certain amount of time. Let's keep bots from resubmitting the same form repeatedly.
+* Hide the honeypot field from legitimate users via JavaScript or css. Use a clever clasname if you use css. Bots may readily avoid commone classes like "hide", "hidden", "honeypot".
