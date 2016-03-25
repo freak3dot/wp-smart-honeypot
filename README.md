@@ -1,7 +1,7 @@
 wp-smart-honeypot
 =================
 
-Wordpress plugin to reduce comment spam with a smarter honeypot.
+WordPress plugin to reduce comment spam with a smarter honeypot.
 
 
 ###New Comment Template Required###
