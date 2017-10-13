@@ -23,7 +23,7 @@ class wpCommentSmartHoneyPotPlugin {
 	protected $insertAt;
 	/** @var array List of field names. */
 	protected $label_list = array( 'Name', 'Email', 'Website', 'Comment' );
-	/** @var array List of bootstrap icons corresponding to the abvoe field names. */
+	/** @var array List of bootstrap icons corresponding to the above field names. */
 	protected $icon_list = array( 'user', 'envelope', 'home', 'comment' );
 	/** @var int Honeypot Label id. */
 	protected $label;
